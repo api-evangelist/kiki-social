@@ -1,0 +1,18 @@
+generated: '2026-10-21'
+method: none
+source:
+- https://zapier.com/apps/kiki-social/integrations
+- https://zapier.com/apps/kiki/integrations
+- https://n8n.io/integrations/kiki-social/
+- https://composio.dev/toolkits/kiki-social
+- https://monid.ai/tools/kiki-social
+checked:
+- https://composio.dev/toolkits/kiki-social
+- https://monid.ai/tools/kiki-social
+- https://n8n.io/integrations/kiki-social/
+- https://zapier.com/apps/kiki-social/integrations
+- https://zapier.com/apps/kiki/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

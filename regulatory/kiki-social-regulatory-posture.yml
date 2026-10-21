@@ -1,0 +1,32 @@
+generated: '2026-10-21'
+method: probed
+source: https://kikihub.com/policy
+signals:
+  data_retention:
+    evidence:
+      - source: https://kikihub.com/policy
+        http_status: 200
+        fetched: /tmp/kikihub_policy.html
+        quote: "We retain all Personal Data for as long as you use the Application and 24 months after you stop using it."
+    note: Retains data for usage period plus 24 months, with possible longer legal retention.
+  incident_notification:
+    evidence:
+      - source: https://kikihub.com/policy
+        http_status: 200
+        fetched: /tmp/kikihub_policy.html
+        quote: "In this case the respective notification will be available on the web-page of the Privacy Policy."
+    note: Indicates incident notifications will be posted on the privacy policy page.
+  subprocessors:
+    evidence:
+      - source: https://kikihub.com/policy
+        http_status: 200
+        fetched: /tmp/kikihub_policy.html
+        quote: "For the purposes of analytics and advertising, we may use services and solutions provided by third parties. Such parties may process data on our behalf and the respective technical solutions represent a part of the App. Any transfer of your Personal Data is based on a written agreement, and we make sure such a third party complies with the applicable data protection regulations."
+    note: Uses third‑party processors under written agreements.
+  data_subject_request:
+    evidence:
+      - source: https://kikihub.com/policy
+        http_status: 200
+        fetched: /tmp/kikihub_policy.html
+        quote: "Please, take into account that erasure of Personal Data is irretrievable. After your Personal Data has been erased, you will not be able to exercise the right to access, the right to erasure, the right to rectification or data portability."
+    note: Denies ability to exercise data subject rights.

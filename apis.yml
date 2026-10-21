@@ -1,25 +1,64 @@
 aid: kiki-social
+
 name: Kiki
-description: 'Kiki is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by 500-global) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://kikihub.com/img/social/og-image.jpg?v=2
+
+description: 'Kiki operates the Kikihub platform, a social networking app that helps users discover and connect with nearby people for chatting, dating, and community events. The service offers location‑based matching, real‑time messaging, and event organization features across iOS and Android. It emphasizes privacy, user‑generated content, and a vibrant community experience, positioning itself as a modern alternative to traditional social apps.'
+
 url: https://raw.githubusercontent.com/api-evangelist/kiki-social/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
 - Company
-apis: []
+- Social
+- Mobile
+- Networking
+- Community
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- 500-global
+
 common:
+- type: Hosts
+  url: hosts/kiki-social-hosts.yml
+- type: Vendors
+  url: vendors/kiki-social-vendors.yml
+- type: DomainSecurity
+  url: security/kiki-social-domain-security.yml
 - type: Website
   url: https://kiki.social
+- type: Documentation
+  url: https://kikihub.com/faq
+- type: TermsOfService
+  url: https://kikihub.com/terms
+- type: PrivacyPolicy
+  url: https://kikihub.com/policy
+- type: Support
+  url: https://kikihub.com/support
+
+apis: []
+
+x-backed-by:
+- 500-global
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
